@@ -1,0 +1,301 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://src/Entities/Player/Mannequiny.gd" type="Script" id=1]
+
+[sub_resource type="CubeMesh" id=24]
+
+[sub_resource type="Skin" id=25]
+bind_count = 45
+bind/0/name = ""
+bind/0/bone = -1
+bind/0/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/1/name = ""
+bind/1/bone = -1
+bind/1/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/2/name = ""
+bind/2/bone = -1
+bind/2/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/3/name = ""
+bind/3/bone = -1
+bind/3/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/4/name = ""
+bind/4/bone = -1
+bind/4/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/5/name = ""
+bind/5/bone = -1
+bind/5/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/6/name = ""
+bind/6/bone = -1
+bind/6/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/7/name = ""
+bind/7/bone = -1
+bind/7/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/8/name = ""
+bind/8/bone = -1
+bind/8/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/9/name = ""
+bind/9/bone = -1
+bind/9/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/10/name = ""
+bind/10/bone = -1
+bind/10/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/11/name = ""
+bind/11/bone = -1
+bind/11/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/12/name = ""
+bind/12/bone = -1
+bind/12/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/13/name = ""
+bind/13/bone = -1
+bind/13/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/14/name = ""
+bind/14/bone = -1
+bind/14/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/15/name = ""
+bind/15/bone = -1
+bind/15/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/16/name = ""
+bind/16/bone = -1
+bind/16/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/17/name = ""
+bind/17/bone = -1
+bind/17/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/18/name = ""
+bind/18/bone = -1
+bind/18/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/19/name = ""
+bind/19/bone = -1
+bind/19/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/20/name = ""
+bind/20/bone = -1
+bind/20/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/21/name = ""
+bind/21/bone = -1
+bind/21/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/22/name = ""
+bind/22/bone = -1
+bind/22/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/23/name = ""
+bind/23/bone = -1
+bind/23/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/24/name = ""
+bind/24/bone = -1
+bind/24/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/25/name = ""
+bind/25/bone = -1
+bind/25/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/26/name = ""
+bind/26/bone = -1
+bind/26/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/27/name = ""
+bind/27/bone = -1
+bind/27/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/28/name = ""
+bind/28/bone = -1
+bind/28/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/29/name = ""
+bind/29/bone = -1
+bind/29/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/30/name = ""
+bind/30/bone = -1
+bind/30/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/31/name = ""
+bind/31/bone = -1
+bind/31/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/32/name = ""
+bind/32/bone = -1
+bind/32/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/33/name = ""
+bind/33/bone = -1
+bind/33/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/34/name = ""
+bind/34/bone = -1
+bind/34/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/35/name = ""
+bind/35/bone = -1
+bind/35/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/36/name = ""
+bind/36/bone = -1
+bind/36/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/37/name = ""
+bind/37/bone = -1
+bind/37/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/38/name = ""
+bind/38/bone = -1
+bind/38/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/39/name = ""
+bind/39/bone = -1
+bind/39/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/40/name = ""
+bind/40/bone = -1
+bind/40/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/41/name = ""
+bind/41/bone = -1
+bind/41/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/42/name = ""
+bind/42/bone = -1
+bind/42/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/43/name = ""
+bind/43/bone = -1
+bind/43/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+bind/44/name = ""
+bind/44/bone = -1
+bind/44/pose = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+
+[sub_resource type="SphereMesh" id=26]
+
+[sub_resource type="Skin" id=27]
+
+[sub_resource type="Animation" id=5]
+resource_name = "air_jump"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.200851, 0, 0 ), Vector3( -0.200851, 0.727547, 0 ), Vector3( -0.200851, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "air_land"
+
+[sub_resource type="Animation" id=7]
+resource_name = "idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.245743, 0, 0 ), Vector3( -0.245743, 0.107033, 0 ), Vector3( -0.245743, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "run"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.200851, 0.703012, 0 ), Vector3( 0.284561, 0.703012, 0 ), Vector3( -0.200851, 0.703012, 0 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "walk"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.200851, 0.703012, 0 ), Vector3( -0.200851, 0.703012, 0.320793 ), Vector3( -0.200851, 0.703012, 0 ) ]
+}
+
+[sub_resource type="AnimationNodeAnimation" id=12]
+animation = "idle"
+
+[sub_resource type="AnimationNodeAnimation" id=13]
+animation = "air_jump"
+
+[sub_resource type="AnimationNodeAnimation" id=14]
+animation = "air_land"
+
+[sub_resource type="AnimationNodeAnimation" id=28]
+animation = "walk"
+
+[sub_resource type="AnimationNodeAnimation" id=29]
+animation = "run"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id=15]
+blend_point_0/node = SubResource( 28 )
+blend_point_0/pos = 0.4
+blend_point_1/node = SubResource( 29 )
+blend_point_1/pos = 0.6
+min_space = 0.0
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=16]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=17]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=18]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=19]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=20]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=21]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=22]
+
+[sub_resource type="AnimationNodeStateMachine" id=23]
+states/idle/node = SubResource( 12 )
+states/idle/position = Vector2( 499, 56 )
+states/jump/node = SubResource( 13 )
+states/jump/position = Vector2( 671, 150 )
+states/land/node = SubResource( 14 )
+states/land/position = Vector2( 506, 150 )
+states/move_ground/node = SubResource( 15 )
+states/move_ground/position = Vector2( 697, 56 )
+transitions = [ "idle", "move_ground", SubResource( 16 ), "move_ground", "idle", SubResource( 17 ), "move_ground", "jump", SubResource( 18 ), "jump", "move_ground", SubResource( 19 ), "jump", "land", SubResource( 20 ), "land", "idle", SubResource( 21 ), "idle", "jump", SubResource( 22 ) ]
+graph_offset = Vector2( 0, -19.516 )
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=11]
+
+[node name="Mannequiny" type="Spatial"]
+transform = Transform( 1.07523, 0, -0.0767759, 0, 1, 0, 0.0830193, 0, 0.994366, -0.245743, 0.0179148, 0 )
+script = ExtResource( 1 )
+
+[node name="root" type="Spatial" parent="."]
+
+[node name="Skeleton" type="Skeleton" parent="root"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0498568, 0, 0 )
+
+[node name="body" type="MeshInstance" parent="root/Skeleton"]
+transform = Transform( 0.547373, 0, 0, 0, 0.508344, 0, -7.45058e-09, 0, 1, 0.336411, 0, 0.052 )
+mesh = SubResource( 24 )
+skin = SubResource( 25 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="root"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0793896, 0, -0.00662825 )
+mesh = SubResource( 26 )
+skin = SubResource( 27 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/air_jump = SubResource( 5 )
+anims/air_land = SubResource( 6 )
+anims/idle = SubResource( 7 )
+anims/run = SubResource( 8 )
+anims/walk = SubResource( 9 )
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource( 23 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+process_mode = 0
+parameters/playback = SubResource( 11 )
+parameters/move_ground/blend_position = 0.402321

@@ -1,0 +1,46 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://src/Main/StateMachine/StateMachine.gd" type="Script" id=1]
+[ext_resource path="res://src/Entities/Player/States/Idle.gd" type="Script" id=2]
+[ext_resource path="res://src/Entities/Player/States/Move.gd" type="Script" id=3]
+[ext_resource path="res://src/Entities/Player/States/Run.gd" type="Script" id=4]
+[ext_resource path="res://src/Entities/Player/Mannequiny.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Entities/Player/Player.gd" type="Script" id=6]
+[ext_resource path="res://src/Entities/Player/States/Air.gd" type="Script" id=7]
+[ext_resource path="res://src/Entities/Player/States/Side.gd" type="Script" id=8]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=2]
+
+[node name="Player" type="KinematicBody"]
+script = ExtResource( 6 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="Mannequiny" parent="." instance=ExtResource( 5 )]
+
+[node name="AnimationTree" parent="Mannequiny" index="2"]
+parameters/playback = SubResource( 2 )
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource( 1 )
+initial_state = NodePath("Move/Idle")
+
+[node name="Move" type="Node" parent="StateMachine"]
+script = ExtResource( 3 )
+
+[node name="Idle" type="Node" parent="StateMachine/Move"]
+script = ExtResource( 2 )
+
+[node name="Side" type="Node" parent="StateMachine/Move"]
+script = ExtResource( 8 )
+
+[node name="Run" type="Node" parent="StateMachine/Move"]
+script = ExtResource( 4 )
+
+[node name="Air" type="Node" parent="StateMachine/Move"]
+script = ExtResource( 7 )
+
+[editable path="Mannequiny"]
