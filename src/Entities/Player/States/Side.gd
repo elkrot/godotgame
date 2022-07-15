@@ -2,7 +2,7 @@ extends PlayerState
 
 #/*Side*/
 func unhandled_input(event: InputEvent) -> void:
-	print(_parent.name)
+	
 	_parent.unhandled_input(event)
 	
 	

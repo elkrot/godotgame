@@ -58,7 +58,11 @@ signal player_fire
 #
 #func _on_LeftButton_pressed():
 #	emit_signal("player_move_left")
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("fire"):
+		emit_signal("player_fire")
 
 
-func _on_FireButton_pressed():
+
+func _on_Button_pressed():
 	emit_signal("player_fire")
